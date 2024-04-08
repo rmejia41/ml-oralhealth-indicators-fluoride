@@ -1,11 +1,11 @@
-# #Final app
+#Final app
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
-from openpyxl import Workbook
+import openpyxl
 
 # Set the theme to SOLAR
 app_theme = dbc.themes.SANDSTONE #SOLAR PULSE SANDSTONE
